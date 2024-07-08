@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box1 {
+    display: flex; 
+    align-items: center; /* Centers content vertically */
+    justify-content: center; /* Centers content horizontally */
+    height: 500px; /* Sets the height of the box */
+    background-image: url('background-2.png');
+    filter: blur(0.3px);
+    z-index: -4; /* Sets the background image */
+    background-size: cover; /* Ensures the background image covers the entire area */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+}
+.text{
+    height:30px;
+    color:red;
+    posiot
+
+}
+.hello{
+    color:black;
+    text-align:center;
+    height :50px;
+}
+
+
+.book1 {
+    margin: 50px;
+    height: 300px;
+    padding: 10px;
+    background-color: lightgray;
+    display: flex;
+    gap: 20px;
+}
+.book1 img {
+    height: 100%;
+}
+
